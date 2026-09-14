@@ -1,0 +1,7 @@
+metric,value
+matched_pairs,1660
+unique_issuers,575
+median_greenium_bps,-0.021
+trimmed_1pct_mean_greenium_bps,-0.303
+trimmed_1pct_ci95_low_bps,-2.023
+trimmed_1pct_ci95_high_bps,1.417

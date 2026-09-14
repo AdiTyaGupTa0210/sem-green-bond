@@ -1,0 +1,5 @@
+model,n,green_n,r_squared,green_effect_bps
+M6-Core,74476,3078,0.327,18.8
+M6 + Rating,21595,965,0.252,-3.33
+M6 + ESG,18913,1111,0.293,-2.48
+M6-Full,6675,416,0.308,-11.66
