@@ -1,0 +1,11 @@
+Issuer-cluster wild bootstrap
+Replications: 5000
+Seed: 20261009
+Cluster: Issuer_clean
+Sample: common complete-case delta sample
+N: 6613
+Green N: 385
+Issuer clusters: 335
+Weights: Rademacher (-1, 1)
+CI: percentile 95%
+Models: M6-Hygiene, M6 + Delta Credit Rating, M6 + Delta ESG, M6-Full Delta

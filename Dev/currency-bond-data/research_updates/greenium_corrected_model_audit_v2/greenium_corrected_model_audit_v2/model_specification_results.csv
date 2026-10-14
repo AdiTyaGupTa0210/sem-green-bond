@@ -1,0 +1,16 @@
+model,method,n,green_n,issuers,parameter,estimate_bps,se_bps,p_value
+Raw OLS,OLS + issuer-clustered SE,6600,416,477,Green,-8.467217333053819,11.914520086538614,0.47764068867555726
+Raw OLS,OLS + issuer-clustered SE,6600,416,477,ESG_z,-9.439019643533495,5.281531396584887,0.07454540613218288
+Raw OLS,OLS + issuer-clustered SE,6600,416,477,IG_status,-14.232944627206734,20.585089843812302,0.48963865873732054
+Preferred robust model,Huber weights + issuer-clustered WLS inference,6600,416,477,Green,1.809775312287639,4.054073715687144,0.6555047866737927
+Preferred robust model,Huber weights + issuer-clustered WLS inference,6600,416,477,ESG_z,-3.062335118031622,1.4322355245844278,0.033013092069146155
+Preferred robust model,Huber weights + issuer-clustered WLS inference,6600,416,477,IG_status,-55.22042946600257,10.764707010989497,4.230745386881922e-07
+Preferred robust model,"Huber weights + two-way clustered SE (issuer, CurrencyYear)",6600,416,477,Green,1.809775312287639,4.641931251299549,0.6966286042317614
+Preferred robust model,"Huber weights + two-way clustered SE (issuer, CurrencyYear)",6600,416,477,ESG_z,-3.062335118031622,1.5484418421293007,0.04796389528892184
+Preferred robust model,"Huber weights + two-way clustered SE (issuer, CurrencyYear)",6600,416,477,IG_status,-55.22042946600257,10.962844127701281,4.727533348570414e-07
+TukeyBiweight,TukeyBiweight weights + issuer-clustered WLS,6600,416,477,Green,3.2641810662720365,3.7462919487823645,0.38402422949686416
+TukeyBiweight,TukeyBiweight weights + issuer-clustered WLS,6600,416,477,ESG_z,-2.929354257801301,1.3357408787675618,0.028786456449426567
+TukeyBiweight,TukeyBiweight weights + issuer-clustered WLS,6600,416,477,IG_status,-60.83190848528061,10.062744944151824,3.0160751621936492e-09
+Hampel,Hampel weights + issuer-clustered WLS,6600,416,477,Green,0.9784208201973007,4.620088546491666,0.8323729536768252
+Hampel,Hampel weights + issuer-clustered WLS,6600,416,477,ESG_z,-3.1239618670236404,1.6059413607283943,0.0523329639279331
+Hampel,Hampel weights + issuer-clustered WLS,6600,416,477,IG_status,-53.38721239821638,11.858449118921893,8.473455074186088e-06

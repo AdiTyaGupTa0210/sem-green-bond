@@ -1,0 +1,6 @@
+diagnostic,value
+Max absolute pairwise Pearson,0.8348940257984936
+Max VIF,3.332768871227906
+Min tolerance,0.3000508101936171
+Max condition index,3.3727948229785
+Correlation matrix determinant,0.2696763604861011

@@ -1,0 +1,11 @@
+diagnostic,value
+Main common sample N,6600.0
+Green bonds,416.0
+Issuers,477.0
+YTM min,-100.0
+YTM max,80.491334
+YTM 0.5th percentile,-14.838458515000001
+YTM 99.5th percentile,9.124552850000004
+Multi-year ESG issuers with one unique ESG score,0.9548651817116061
+Green high-yield rows,8.0
+Green investment-grade rows,408.0

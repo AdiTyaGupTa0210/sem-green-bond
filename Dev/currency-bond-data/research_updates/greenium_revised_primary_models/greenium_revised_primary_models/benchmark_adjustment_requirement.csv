@@ -1,0 +1,2 @@
+requested_change,status,reason,correct_next_input
+True sovereign/swap benchmark-adjusted yield,Not constructed from current workbook,"The source file does not contain an external risk-free/swap curve matched by currency, date, and maturity. Creating one from the bond sample would not be equivalent to a true market benchmark.","Obtain sovereign or swap zero/yield curves by currency and date, then interpolate to each bond maturity."

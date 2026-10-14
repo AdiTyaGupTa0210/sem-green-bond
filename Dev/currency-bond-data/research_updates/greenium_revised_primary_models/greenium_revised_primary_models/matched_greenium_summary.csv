@@ -1,0 +1,3 @@
+method,pairs,issuers,mean_greenium_bps,median_greenium_bps,share_negative,bootstrap_ci95_low_bps,bootstrap_ci95_high_bps,bootstrap_mean_p_approx
+"Exact-stratum nearest neighbour, with replacement",680,121,-34.91026823529411,-0.13344999999995721,0.5102941176470588,-95.15159446278848,0.5997104500539694,0.0796
+"Greedy nearest neighbour, no control reuse",653,121,-14.122911026033693,-0.20000000000002238,0.5191424196018377,-38.2569698054847,0.8885394848370294,0.112

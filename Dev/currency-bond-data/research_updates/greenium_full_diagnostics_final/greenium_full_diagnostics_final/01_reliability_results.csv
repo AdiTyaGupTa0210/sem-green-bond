@@ -1,0 +1,6 @@
+measure,test,n_pairs,statistic,p_value
+ESG,Lag-1 Pearson,5427,0.9995201374344966,0.0
+ESG,Lag-1 Spearman,5427,0.9997393018407162,0.0
+ESG,Exact repeat share,5427,0.9721761562557583,
+Investment Grade,Cohen's kappa,2993,0.9528171688581563,
+Investment Grade,Exact agreement share,2993,0.9963247577681257,

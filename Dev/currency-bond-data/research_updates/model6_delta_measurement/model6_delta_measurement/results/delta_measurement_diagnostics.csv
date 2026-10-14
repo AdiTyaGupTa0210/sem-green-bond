@@ -1,0 +1,11 @@
+metric,value
+Total bond rows,169320
+Issuer-year rows,43471
+Issuer-years with ESG level,8502
+Issuer-years with ΔESG,5427
+Issuer-years with non-zero ΔESG,151
+Issuer-years with credit-rating level,4193
+Issuer-years with ΔCreditRating,3041
+Issuer-years with non-zero ΔCreditRating,242
+Bond rows usable for both delta variables,34907
+Green bond rows usable for both delta variables,417

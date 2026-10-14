@@ -1,0 +1,7 @@
+test,status,reason
+Cronbach's alpha,Not applicable,"Single observed archival measures, not multi-item reflective scales."
+McDonald's omega,Not applicable,Requires multiple items for the same latent construct.
+Composite Reliability,Not applicable,Requires a multi-indicator CFA/SEM measurement model.
+AVE,Not applicable,Requires factor loadings from multiple indicators.
+CFA convergent validity,Not applicable,No multi-item latent ESG or credit-quality block exists.
+Temporal stability,Diagnostic only,"Repeated issuer-year records can be checked, but IssueYear is not a verified score timestamp."

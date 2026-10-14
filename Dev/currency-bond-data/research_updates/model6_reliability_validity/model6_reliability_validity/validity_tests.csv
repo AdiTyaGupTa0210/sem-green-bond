@@ -1,0 +1,6 @@
+test,n,statistic,p_value,interpretation
+Delta ESG vs Delta Credit Rating - Pearson,1572,0.21170216245657525,2.1886492367808692e-17,Small linear association; the two delta measures are not redundant.
+Delta ESG vs Delta Credit Rating - Spearman,1572,0.04170394124656301,0.09835108410489983,Near-zero rank association; supports empirical distinctness.
+VIF - Delta ESG,6613,1.00309113199225,,No meaningful multicollinearity.
+VIF - Delta Credit Rating,6613,1.0093416940162503,,No meaningful multicollinearity.
+Joint clustered Wald test: Delta Rating = Delta ESG = 0,6613,1.6938206714801438,0.18539095554979293,Tests joint incremental predictive contribution to YTM in the full common-sample model.

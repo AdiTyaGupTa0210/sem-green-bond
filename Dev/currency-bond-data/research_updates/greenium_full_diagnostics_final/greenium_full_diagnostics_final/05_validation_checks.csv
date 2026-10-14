@@ -1,0 +1,7 @@
+check,passed,detail
+VIF independently reproduced,True,0.0
+No NaN/Inf in final numeric matrix,True,
+Preferred coefficients reproduce on re-fit,True,0.0
+Correlation matrix PSD,True,0.16377997860213173
+Final N verified,True,6600.0
+Green N verified,True,416.0

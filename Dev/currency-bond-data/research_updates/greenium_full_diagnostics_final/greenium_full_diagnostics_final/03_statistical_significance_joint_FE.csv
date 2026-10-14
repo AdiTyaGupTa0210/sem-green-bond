@@ -1,0 +1,4 @@
+block,parameters_tested,wald_statistic,p_value
+CurrencyYear FE,177,906681.9327117427,0.0
+Seniority FE,11,18.050282353399467,3.912860940749427e-30
+Instrument FE,29,64.98096453020726,1.1997560968242074e-145

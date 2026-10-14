@@ -1,0 +1,12 @@
+metric,value
+matched_pairs,1660.0
+unique_issuers,575.0
+raw_mean_greenium_bps,-13.258440120481922
+median_greenium_bps,-0.021099999999962815
+share_green_yield_lower,0.5042168674698795
+p01_greenium_bps,-104.43655800000002
+p99_greenium_bps,84.98178200000005
+trimmed_1pct_mean_greenium_bps,-0.3032715252152505
+trimmed_1pct_cluster_se_bps,0.877526286040109
+trimmed_1pct_ci95_low_bps,-2.023223045853864
+trimmed_1pct_ci95_high_bps,1.416679995423363

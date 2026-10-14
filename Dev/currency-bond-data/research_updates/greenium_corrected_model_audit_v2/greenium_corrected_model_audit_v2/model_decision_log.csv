@@ -1,0 +1,7 @@
+candidate,decision,reason
+Temporal ΔESG / ΔRating,Reject as primary,IssueYear is not a verified ESG/rating observation date; ESG is overwhelmingly repeated across issue years.
+Old arbitrary 1-5 rating map,Reject,It imposes invalid distances across heterogeneous rating labels.
+Investment-grade status,Keep as primary credit-quality control,Combines broad grade labels and exact rating threshold without inventing notch spacing.
+Exact Moody's/S&P notch scale,Sensitivity only,Reduces sample to 2409 observations / 98 issuers and does not replicate the primary result.
+Issuer-FE Green × grade interaction,Do not claim,Only 8 green high-yield observations; sparse cell makes the apparent interaction unstable.
+Huber robust estimation,Keep as preferred,Raw YTM has very large tail observations; multiple robust treatments give similar direction for ESG and credit grade.

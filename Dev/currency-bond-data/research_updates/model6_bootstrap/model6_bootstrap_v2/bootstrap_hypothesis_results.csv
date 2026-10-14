@@ -1,0 +1,4 @@
+hypothesis,parameter,point_estimate_bps,bootstrap_se_bps,percentile_ci95_low_bps,percentile_ci95_high_bps,bootstrap_se_p_value,bootstrap_sign_tail_probability,ci_excludes_zero
+H1: Green pricing differential,Green,-7.491237066294665,11.775322896685775,-29.82839026357434,15.338237815355853,0.5246584350888042,0.5408,False
+H3: Change in credit rating,Delta_CreditRating,8.225477985531654,4.8017003154179845,-0.6954475538815786,17.06594238358442,0.08670620478079094,0.0764,False
+H2: Change in ESG,Delta_ESG,4.00552780428093,5.624189546135416,-5.505634036181218,13.542773726655799,0.4763431376606463,0.4892,False

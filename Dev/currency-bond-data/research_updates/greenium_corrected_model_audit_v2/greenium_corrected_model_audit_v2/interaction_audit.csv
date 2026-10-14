@@ -1,0 +1,7 @@
+model,parameter,estimate_bps,p_value
+ESG moderation,Green:ESG_z,7.52421272702088,0.43584272430183946
+Grade moderation,Green:IG_status,-40.68232205331005,0.5813180859045907
+Both moderation,Green:ESG_z,7.474931719089292,0.44208097700034676
+Both moderation,Green:IG_status,-40.40704069049925,0.5874540853466873
+Issuer-FE interaction sensitivity,Green:ESG_z,20.301603862115947,0.3278681157404939
+Issuer-FE interaction sensitivity,Green:IG_status,-48.09614018311143,0.02337643846975438

@@ -1,0 +1,7 @@
+diagnostic,value
+Data type,Archival/objective bond-market data
+Classical CMB relevance,Low / not directly applicable
+Harman/PCA first component variance,0.233639973163015
+First component >50%,False
+Maximum full-collinearity VIF,3.332955905962609
+Any full-collinearity VIF >3.3,True

@@ -1,0 +1,9 @@
+measure,test,n_pairs,statistic,p_value,interpretation
+ESG level,Lag-1 Pearson correlation,5427,0.9995201374344966,0.0,Very high temporal stability; must be interpreted with the very high exact-repeat rate.
+ESG level,Lag-1 Spearman correlation,5427,0.9997393018407162,0.0,Very high rank-order stability.
+ESG level,ICC (random-intercept stability),7133,0.9995804062129335,,Extremely high between-issuer stability relative to within-issuer variation.
+ESG level,Exact repeat share,5427,0.9721761562557583,,97%+ of consecutive observed issuer-year ESG values are unchanged.
+Credit rating level,Lag-1 Spearman correlation,3041,0.8574358891165793,0.0,Strong ordinal temporal stability.
+Credit rating level,Quadratic weighted Cohen kappa,3041,0.8762198672324207,,Strong agreement between consecutive observed rating categories.
+Credit rating level,ICC (random-intercept stability),3748,0.8459417223885605,,Strong temporal stability.
+Credit rating level,Exact repeat share,3041,0.9204209141729695,,Most consecutive observed issuer-year ratings do not change.

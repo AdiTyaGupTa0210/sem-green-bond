@@ -1,0 +1,11 @@
+test,status,reason
+Cronbach alpha,Not applicable,"ESG and rating are single observed measures, not multi-item reflective scales."
+McDonald's omega,Not applicable,Requires multiple indicators/items measuring one latent construct.
+Composite Reliability (CR),Not applicable,Requires a CFA/SEM measurement model with multiple indicators.
+Average Variance Extracted (AVE),Not applicable,Requires multiple reflective indicators and factor loadings.
+Fornell-Larcker / HTMT,Not formally applicable,Formal latent-construct discriminant validity requires multi-item constructs.
+EFA/CFA,Not applicable to current delta variables,A single Delta_ESG variable and a single Delta_CreditRating variable cannot form separate factor models by themselves.
+Temporal stability,Applicable and performed,Repeated issuer-year measurements are available for level ESG and rating.
+Weighted kappa for credit rating,Applicable and performed,Credit rating is ordinal.
+Discriminant distinctness via correlations/VIF,Applicable as a diagnostic,Checks whether the two delta controls are empirically redundant.
+Criterion/predictive validity vs YTM,Applicable and performed,Checks whether delta measures add explanatory information to Model 6.

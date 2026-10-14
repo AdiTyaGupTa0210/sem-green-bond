@@ -3,7 +3,7 @@
 
 ## Data preprocessing summary
 
-INR rows: 25095 of 139067
+INR rows: 25095 of 169320
 
 Shared complete-case sample: 565 rows
 
@@ -56,11 +56,11 @@ IssueSize_log       0.660
 ## Model comparison
 
                            model  sample_n    CFI  RMSEA     Chi2  DoF     AIC     BIC  R2_BondPricing
-        Model 3 - Greenium Model       565 0.8654 0.1989  46.6368  2.0 15.8349 50.5295             NaN
-         Model 2 - Quality Model       565 0.8333 0.1824 197.5854 10.0 21.3006 69.0057          0.3138
-       Model 5 - Mediation Model       565 0.6955 0.2096 180.4697  7.0 27.3612 88.0767             NaN
-            Model 4 - Full Model       565 0.3826 0.2985 358.7754  7.0 26.7300 87.4456             NaN
-Model 1 - Baseline Pricing Model       565 0.2808 0.3247 241.7926  4.0 11.1441 37.1651          0.0822
+Model 1 - Baseline Pricing Model       565 0.9285 0.1172  34.9648  4.0 11.8762 37.8972          0.3423
+       Model 5 - Mediation Model       565 0.7064 0.2058 174.2785  7.0 27.3831 88.0986          0.9026
+         Model 2 - Quality Model       565 0.7022 0.1733 179.4039 10.0 21.3649 69.0700          0.3445
+            Model 4 - Full Model       565 0.6807 0.2147 188.9087  7.0 27.3313 88.0469          0.0000
+        Model 3 - Greenium Model       565 0.3454 0.6402 464.2955  2.0 14.3565 49.0511          0.0127
 
 
 ## Final interpretation
@@ -74,100 +74,100 @@ The data support a strong pricing block around yield and coupon, but not a fully
 
 Establish the base market-risk and ESG mechanism.
 
-CFI: 0.281, RMSEA: 0.325, R2(BondPricing): 0.082
+CFI: 0.928, RMSEA: 0.117, R2(BondPricing): 0.342
 
 indicator_or_endogenous latent_or_predictor  Est. Std   p-value
-            BondPricing          Spread_log    -0.182  0.000015
-            BondPricing             ESG_num     0.214       0.0
-                YTM_log         BondPricing     0.963         -
-           SourceCoupon         BondPricing     0.544  0.000014
+            BondPricing          Spread_log    -0.027  0.493039
+            BondPricing             ESG_num     0.583       0.0
+                YTM_log         BondPricing     0.476         -
+           SourceCoupon         BondPricing     0.902       0.0
 
        lval       rval  Est. Std   p-value
-BondPricing Spread_log    -0.182  0.000015
-BondPricing    ESG_num     0.214       0.0
+BondPricing Spread_log    -0.027  0.493039
+BondPricing    ESG_num     0.583       0.0
 
 ## Model 2 - Quality Model
 
 Test whether issuer strength adds explanatory power.
 
-CFI: 0.833, RMSEA: 0.182, R2(BondPricing): 0.314
+CFI: 0.702, RMSEA: 0.173, R2(BondPricing): 0.344
 
 indicator_or_endogenous latent_or_predictor  Est. Std   p-value
-            BondPricing          Spread_log     0.040  0.288247
-            BondPricing             ESG_num     0.527       0.0
-            BondPricing             Quality     0.189  0.000292
-                YTM_log         BondPricing     0.443         -
-           SourceCoupon         BondPricing     0.954       0.0
-       CreditRating_ord             Quality     0.324         -
-          IssueSize_log             Quality     1.000  0.088148
+            BondPricing          Spread_log    -0.043  0.228441
+            BondPricing             ESG_num     0.535       0.0
+            BondPricing             Quality    -0.233  0.039596
+                YTM_log         BondPricing     0.437         -
+           SourceCoupon         BondPricing     0.982       0.0
+       CreditRating_ord             Quality     1.000         -
+          IssueSize_log             Quality     0.324  0.027988
 
        lval       rval  Est. Std   p-value
-BondPricing Spread_log     0.040  0.288247
-BondPricing    ESG_num     0.527       0.0
-BondPricing    Quality     0.189  0.000292
+BondPricing Spread_log    -0.043  0.228441
+BondPricing    ESG_num     0.535       0.0
+BondPricing    Quality    -0.233  0.039596
 
 ## Model 3 - Greenium Model
 
 Test a proxy greenium channel.
 
-CFI: 0.865, RMSEA: 0.199, R2(BondPricing): not identified
+CFI: 0.345, RMSEA: 0.640, R2(BondPricing): 0.013
 
 indicator_or_endogenous latent_or_predictor  Est. Std   p-value
-            BondPricing          Spread_log    -0.003  0.944359
-            BondPricing            Greenium     1.000       1.0
-                YTM_log         BondPricing     0.422         -
-           SourceCoupon         BondPricing     1.000  0.000001
-                ESG_num            Greenium     0.441         -
+            BondPricing          Spread_log    -0.112   0.00944
+            BondPricing            Greenium     0.010  0.996949
+                YTM_log         BondPricing     0.967         -
+           SourceCoupon         BondPricing     0.542  0.089807
+                ESG_num            Greenium     0.017         -
 
        lval       rval  Est. Std   p-value
-BondPricing Spread_log    -0.003  0.944359
-BondPricing   Greenium     1.000       1.0
+BondPricing Spread_log    -0.112   0.00944
+BondPricing   Greenium     0.010  0.996949
 
 ## Model 4 - Full Model
 
 Jointly test market risk, quality, and ESG.
 
-CFI: 0.383, RMSEA: 0.298, R2(BondPricing): not identified
+CFI: 0.681, RMSEA: 0.215, R2(BondPricing): 0.000
 
 indicator_or_endogenous latent_or_predictor  Est. Std   p-value
-            BondPricing          Spread_log     0.055  0.210557
-            BondPricing             Quality    -0.221  0.906158
-            BondPricing            Greenium     1.080  0.782479
-                YTM_log         BondPricing     0.427         -
-           SourceCoupon         BondPricing     1.000  0.001178
-       CreditRating_ord             Quality     0.032         -
-          IssueSize_log             Quality     1.000  0.835831
-                ESG_num            Greenium     0.101         -
+            BondPricing          Spread_log     0.052  0.172962
+            BondPricing             Quality    29.362  0.999968
+            BondPricing            Greenium   -27.899  0.999968
+                YTM_log         BondPricing     0.331         -
+           SourceCoupon         BondPricing     1.000  0.000028
+       CreditRating_ord             Quality     0.355         -
+          IssueSize_log             Quality     1.000  0.010561
+                ESG_num            Greenium     0.169         -
 
        lval       rval  Est. Std   p-value
-BondPricing Spread_log     0.055  0.210557
-BondPricing    Quality    -0.221  0.906158
-BondPricing   Greenium     1.080  0.782479
+BondPricing Spread_log     0.052  0.172962
+BondPricing    Quality    29.362  0.999968
+BondPricing   Greenium   -27.899  0.999968
 
 ## Model 5 - Mediation Model
 
 Test whether issuer quality feeds into pricing through ESG.
 
-CFI: 0.696, RMSEA: 0.210, R2(BondPricing): not identified
+CFI: 0.706, RMSEA: 0.206, R2(BondPricing): 0.903
 
 indicator_or_endogenous latent_or_predictor  Est. Std   p-value
-               Greenium             Quality     0.438  0.000022
-            BondPricing          Spread_log     0.051  0.172256
-            BondPricing            Greenium     1.064  0.000008
-            BondPricing             Quality    -0.180  0.110525
-                YTM_log         BondPricing     0.426         -
-           SourceCoupon         BondPricing     1.000       0.0
-       CreditRating_ord             Quality     0.325         -
-          IssueSize_log             Quality     1.000  0.014955
-                ESG_num            Greenium     0.467         -
+               Greenium             Quality     0.352   0.00002
+            BondPricing          Spread_log     0.039  0.288463
+            BondPricing            Greenium     0.965       0.0
+            BondPricing             Quality    -0.048  0.466857
+                YTM_log         BondPricing     0.450         -
+           SourceCoupon         BondPricing     0.956       0.0
+       CreditRating_ord             Quality     0.324         -
+          IssueSize_log             Quality     1.000  0.019304
+                ESG_num            Greenium     0.585         -
 
             lval        rval  Est. Std   p-value
-        Greenium     Quality     0.438  0.000022
-     BondPricing  Spread_log     0.051  0.172256
-     BondPricing    Greenium     1.064  0.000008
-     BondPricing     Quality    -0.180  0.110525
-         YTM_log BondPricing     0.426         -
-    SourceCoupon BondPricing     1.000       0.0
-CreditRating_ord     Quality     0.325         -
-   IssueSize_log     Quality     1.000  0.014955
-         ESG_num    Greenium     0.467         -
+        Greenium     Quality     0.352   0.00002
+     BondPricing  Spread_log     0.039  0.288463
+     BondPricing    Greenium     0.965       0.0
+     BondPricing     Quality    -0.048  0.466857
+         YTM_log BondPricing     0.450         -
+    SourceCoupon BondPricing     0.956       0.0
+CreditRating_ord     Quality     0.324         -
+   IssueSize_log     Quality     1.000  0.019304
+         ESG_num    Greenium     0.585         -
